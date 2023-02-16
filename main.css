@@ -1,0 +1,22 @@
+body {
+  background-color: rgba(0, 0, 0, 0.5); /* set nilai opasitas (alpha) menjadi 0.5 */
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7); /* set nilai opasitas (alpha) menjadi 0.7 */
+  padding: 20px; /* tambahkan padding pada div container */
+  margin: 50px auto; /* atur margin untuk memposisikan div secara horizontal */
+  max-width: 600px; /* set maksimum lebar div container */
+  border-radius: 10px; /* tambahkan sudut melengkung pada div container */
+}
+
+h1 {
+  text-align: center; /* posisikan teks pada tengah */
+  color: #000000; /* atur warna teks */
+}
+
+p {
+  color: #000000; /* atur warna teks */
+  line-height: 1.3; /* atur jarak antar baris teks */
+  font-size: 16px; /* atur ukuran font */
+}

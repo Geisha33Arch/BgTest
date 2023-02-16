@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lebih Baik Diam Dari Pada Berbohong</title>
+    <style>
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            transform: translateX(-50%) translateY(-50%);
+            opacity: 0, ;
+            /* set nilai opasitas video menjadi 0.5 */
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.7);
+            /* set nilai opasitas (alpha) menjadi 0.7 */
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000000;
+        }
+
+        p {
+            color: #000000;
+            line-height: 1, 3;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay loop muted>
+        <source src="img/CrewTuL.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <div class="text-center">
+            <h1>"Perlahan Pergi"</h1>
+            <p>Ketika Memberi Tahu Orang Bodoh Bersiaplah Untuk di Benci, dan Jangan lah Mengeluh Ketika itu Terjadi.
+            </p>
+            <div class="justify-center">
+            </div>
+        </div>
+        <audio controls>
+            <source src="audio/012.mp3" type="audio/mpeg">
+            <source src="audio/012.ogg" type="audio/ogg">
+        </audio>
+    </div>
+</body>
+
+</html>
